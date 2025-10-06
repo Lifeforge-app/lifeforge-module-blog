@@ -1,0 +1,12 @@
+{
+  "name": "blog",
+  "version": "dev. 25w41",
+  "description": "Cherish every moments in your life through the power of blogging.",
+  "scripts": {
+    "types": "cd client && bun tsc && cd ../server && bun tsc"
+  },
+  "dependencies": {
+    "react-quilljs": "^2.0.5"
+  },
+  "devDependencies": {}
+}
