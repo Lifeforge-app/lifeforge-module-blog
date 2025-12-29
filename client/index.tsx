@@ -1,8 +1,9 @@
-import forgeAPI from '@/utils/forgeAPI'
 import { useQuery } from '@tanstack/react-query'
 import { Button, EmptyStateScreen, ModuleHeader, WithQuery } from 'lifeforge-ui'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router'
+
+import forgeAPI from '@/utils/forgeAPI'
 
 function Blog() {
   const { t } = useTranslation('apps.blog')
@@ -33,8 +34,10 @@ function Blog() {
           ) : (
             <EmptyStateScreen
               icon="tabler:article-off"
-              name="entries"
-              namespace="apps.blog"
+              message={{
+                id: 'entries',
+                namespace: 'apps.blog'
+              }}
             />
           )
         }

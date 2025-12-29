@@ -41,7 +41,7 @@ function Sidebar({
 }) {
   return (
     <SidebarWrapper isOpen={isOpen} setOpen={setOpen}>
-      <div className="flex h-full flex-col gap-3 p-4">
+      <div className="h-full space-y-3 p-4">
         <div className="mb-4 flex items-center gap-2">
           <Icon className="size-7" icon="tabler:file-settings" />
           <h2 className="text-xl font-semibold">Post Settings</h2>

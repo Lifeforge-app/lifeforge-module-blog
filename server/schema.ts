@@ -15,7 +15,6 @@ const blogSchemas = {
       updated: z.string()
     }),
     raw: {
-      id: 'pbc_2526431808',
       listRule: '',
       viewRule: '',
       createRule: '@request.auth.id != ""',
@@ -27,7 +26,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '[a-z0-9]{15}',
           hidden: false,
-          id: 'text3208210256',
           max: 15,
           min: 15,
           name: 'id',
@@ -41,7 +39,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '',
           hidden: false,
-          id: 'text4274335913',
           max: 1000000000000000,
           min: 0,
           name: 'content',
@@ -55,7 +52,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '',
           hidden: false,
-          id: 'text724990059',
           max: 0,
           min: 0,
           name: 'title',
@@ -68,7 +64,6 @@ const blogSchemas = {
         },
         {
           hidden: false,
-          id: 'file1781309708',
           maxSelect: 9999,
           maxSize: 9999999999,
           mimeTypes: [],
@@ -83,7 +78,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '',
           hidden: false,
-          id: 'text1591429585',
           max: 0,
           min: 0,
           name: 'excerpt',
@@ -96,7 +90,6 @@ const blogSchemas = {
         },
         {
           hidden: false,
-          id: 'select1368277760',
           maxSelect: 1,
           name: 'visibility',
           presentable: false,
@@ -107,7 +100,6 @@ const blogSchemas = {
         },
         {
           hidden: false,
-          id: 'file2624913349',
           maxSelect: 1,
           maxSize: 0,
           mimeTypes: [
@@ -127,7 +119,6 @@ const blogSchemas = {
         },
         {
           hidden: false,
-          id: 'json3050373649',
           maxSize: 0,
           name: 'labels',
           presentable: false,
@@ -137,9 +128,8 @@ const blogSchemas = {
         },
         {
           cascadeDelete: false,
-          collectionId: 'pbc_2994309395',
+          collectionId: 'blog__categories',
           hidden: false,
-          id: 'relation105650625',
           maxSelect: 1,
           minSelect: 0,
           name: 'category',
@@ -150,7 +140,6 @@ const blogSchemas = {
         },
         {
           hidden: false,
-          id: 'autodate2990389176',
           name: 'created',
           onCreate: true,
           onUpdate: false,
@@ -160,7 +149,6 @@ const blogSchemas = {
         },
         {
           hidden: false,
-          id: 'autodate3332085495',
           name: 'updated',
           onCreate: true,
           onUpdate: true,
@@ -180,7 +168,6 @@ const blogSchemas = {
       icon: z.string()
     }),
     raw: {
-      id: 'pbc_2994309395',
       listRule: '',
       viewRule: null,
       createRule: '@request.auth.id != ""',
@@ -192,7 +179,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '[a-z0-9]{15}',
           hidden: false,
-          id: 'text3208210256',
           max: 15,
           min: 15,
           name: 'id',
@@ -206,7 +192,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '',
           hidden: false,
-          id: 'text1579384326',
           max: 0,
           min: 0,
           name: 'name',
@@ -220,7 +205,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '',
           hidden: false,
-          id: 'text1716930793',
           max: 0,
           min: 0,
           name: 'color',
@@ -234,7 +218,6 @@ const blogSchemas = {
         {
           autogeneratePattern: '',
           hidden: false,
-          id: 'text1704208859',
           max: 0,
           min: 0,
           name: 'icon',

@@ -1,6 +1,6 @@
 @import 'tailwindcss' source ('.');
 
-@reference '../../../../node_modules/lifeforge-ui/dist';
+@reference '../../../node_modules/lifeforge-ui/dist';
 
 .ql-editor {
   @apply max-h-[calc(100vh-16rem)]! min-h-0! overflow-auto!;
